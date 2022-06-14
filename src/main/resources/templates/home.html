@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <div>
+        <h2> List of Events</h2>
+        <ul th:if="${listEvent != null && !listEvent.empty}">
+            <li th:each="event: ${listEvent}" th:text="${event.name} + '  ' + ${event.date"} ></li>
+        </ul>
+    </div>
+</body>
+</html>
