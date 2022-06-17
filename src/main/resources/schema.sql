@@ -6,5 +6,6 @@ CREATE TABLE `eventsdb` (
     `description` VARCHAR(200) NOT NULL,
     `eventtype` VARCHAR(20) NOT NULL,
     `place` VARCHAR(50) NOT NULL,
-    `eventdate` TIMESTAMP NOT NULL
+    `eventdate` TIMESTAMP NOT NULL,
+    `participants_number` INT NOT NULL
 );

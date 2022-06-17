@@ -1,4 +1,4 @@
-package models;
+package com.uni.eventmanagement.models;
 
 public enum EventType {
     A,

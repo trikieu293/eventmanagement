@@ -1,6 +1,21 @@
-INSERT INTO `eventsdb` (name , description, eventtype, place, eventdate) VALUES
-('event1', 'aaaa', 'A', 'Passau', '2021-06-02T21:33:45.249967'),
-('event2', 'aaaa', 'B', 'Passau', '2021-06-02T21:33:45.249967'),
-('event3', 'aaaa', 'A', 'Passau', '2021-06-02T21:33:45.249967'),
-('event4', 'aaaa', 'B', 'Passau', '2021-06-02T21:33:45.249967'),
-('event5', 'aaaa', 'A', 'Passau', '2021-06-02T21:33:45.249967');
+INSERT INTO `eventsdb` (name , description, eventtype, place, eventdate, participants_number) VALUES
+('event1', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2022-06-22T12:33:45.249967', 0),
+('event2', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2022-06-12T21:33:45.249967', 0),
+('event3', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2022-06-22T21:33:45.249967', 1),
+('event4', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2022-06-22T22:33:45.249967', 2),
+('event5', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2022-06-02T23:33:45.249967', 3),
+('event6', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-22T12:33:45.249967', 0),
+('event7', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2021-06-12T21:33:45.249967', 21),
+('event8', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-22T21:33:45.249967', 0),
+('event9', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2021-06-22T22:33:45.249967', 0),
+('event10', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-02T23:33:45.249967', 0),
+('event11', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2022-07-22T12:33:45.249967', 11),
+('event12', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2021-06-12T21:33:45.249967', 22),
+('event13', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-22T21:33:45.249967', 33),
+('event14', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2021-06-22T22:33:45.249967', 1),
+('event15', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-02T23:33:45.249967', 122),
+('event16', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-22T12:33:45.249967', 2),
+('event17', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2021-06-12T21:33:45.249967', 1),
+('event18', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-22T21:33:45.249967', 4),
+('event19', 'Some quick example text to build on the card title and make up the bulk of content.', 'B', 'Passau', '2021-06-22T22:33:45.249967', 6),
+('event20', 'Some quick example text to build on the card title and make up the bulk of content.', 'A', 'Passau', '2021-06-02T23:33:45.249967', 7);
