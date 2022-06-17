@@ -34,7 +34,7 @@ public class HomeService {
 
     public List<HomeEventDTO> getUpcomingList() {
         List<HomeEventDTO> listForHomepage = findAll();
-        listForHomepage.sort(Comparator.comparing(event->event.getParticipantsNumber()));
+        listForHomepage.sort(Comparator.comparing(event->-event.getParticipantsNumber()));
         return listForHomepage.stream()
                 .filter(event -> event.getRemainingTime() > 0)
                 .limit(3)
